@@ -1,9 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Layout from './highordercomponents/Layout/Layout';
 
 function App() {
   return (
-    <h1>Hello</h1>
+    <Layout/>
   );
 }
 
