@@ -5,15 +5,16 @@
 
 import React, { Component } from 'react';
 import Aux from '../Auxiliary/Auxiliary';
-import classes from './Layout.css';
+import classes from './Layout.module.css';
 import Image from '../../Components/Image/Image';
+import Auth from '../../Components/Auth/Auth';
 
 class Layout extends Component {
 
     render () {
         return (
             <Aux>
-                <Image/>
+                <Auth/>
             </Aux>
         );
     }
