@@ -1,16 +1,33 @@
+.AuthContainer {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .Auth {
-    margin: 20px auto;
-    width: 80%;
+    height: 400px;
+    width: 320px;
+    text-align: center;
+    border: 1px solid rgb(207, 203, 203);
+    box-sizing: border-box;
+    padding: 10px 0px;
+    background-color:white;
+}
+
+.Form {
+    padding: 20px;
+}
+
+/* .Auth {
+    height: 290px;
+    width: 320px;
+    top: 50%;
+    left: 50%;
     text-align: center;
     box-shadow: 0 2px 3px #ccc;
     border: 1px solid #eee;
-    padding: 10px;
+    padding: 20px;
     box-sizing: border-box;
     background-color: black;
-}
-
-@media (min-width: 600px) {
-    .Auth {
-        width: 500px;
-    }
-}
+} */

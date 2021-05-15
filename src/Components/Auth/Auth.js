@@ -4,7 +4,9 @@
  */
 
 import React, { Component } from 'react';
+import Welcome from '../UI/Welcome/Welcome';
 import Input from '../UI/Input/Input';
+import LoginButton from '../UI/Buttons/LoginButton/LoginButtons';
 import { updateObject, checkValidation } from '../../Utility/Utility';
 import classes from './Auth.module.css';
 
@@ -75,10 +77,14 @@ class Auth extends Component {
         ));
 
         return (
-            <div className={classes.Auth}>
-                <form>
-                    {form}
-                </form>
+            <div className={classes.AuthContainer}>
+                <div className={classes.Auth}>
+                    <form>
+                        <Welcome/>
+                        {form}
+                        <LoginButton/>
+                    </form>
+                </div>
             </div>
         );
     }
