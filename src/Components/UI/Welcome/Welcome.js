@@ -8,7 +8,7 @@
  
  const welcome = (props) => (
      <div>
-         <h1 className={classes.Welcome}>Welcome to myPage!</h1>
+         <h1 className={classes.Welcome}>myPage!</h1>
      </div>
  );
  
