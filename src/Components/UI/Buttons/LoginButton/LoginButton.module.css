@@ -1,11 +1,13 @@
 .LoginButton {
     background-color: rgb(0, 130, 246);
     color: rgba(var(--eca,255,255,255),1);
-    border-radius: 5px;
+    border-radius: 3px;
     border-width: 0px;
-    border-color: none;
     cursor: pointer;
+    font-family: Arial; 
     font-weight: bold;
-    padding: 6px 109px;
-    margin-top: 15px;
+    font-size: 12px;
+    padding: 10px 111px;
+    margin: 15px 30px;
 }
+

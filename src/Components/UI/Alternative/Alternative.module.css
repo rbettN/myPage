@@ -1,0 +1,7 @@
+.Alternative {
+    display: flex;
+    height: 15px;
+    margin: 5px 30px 10px;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -6,7 +6,8 @@
 import React, { Component } from 'react';
 import Welcome from '../UI/Welcome/Welcome';
 import Input from '../UI/Input/Input';
-import LoginButton from '../UI/Buttons/LoginButton/LoginButtons';
+import LoginButton from '../UI/Buttons/LoginButton/LoginButton';
+import Alternative from '../UI/Alternative/Alternative';
 import { updateObject, checkValidation } from '../../Utility/Utility';
 import classes from './Auth.module.css';
 
@@ -83,6 +84,7 @@ class Auth extends Component {
                         <Welcome/>
                         {form}
                         <LoginButton/>
+                        <Alternative/>
                     </form>
                 </div>
             </div>
