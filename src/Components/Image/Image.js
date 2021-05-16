@@ -4,7 +4,7 @@
  **/
 
 import React from 'react';
-import Perugia from '../../Assets/Images/Perugia.jpg';
+import Perugia from '../../Assets/Images/Random/Perugia.jpg';
 import classes from './Image.css';
 
 const image = (props) => (
